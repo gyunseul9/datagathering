@@ -1,0 +1,15 @@
+git config --global user.name "gyunseul9"
+git config --global user.email "gyunseul9@gmail.com"
+git init
+git checkout -b ubuntu
+git add .
+git commit -am "init"
+git push --set-upstream origin ubuntu
+
+https://developers.google.com/drive/api/v3/quickstart/python
+
+https://console.developers.google.com/flows/enableapi?apiid=drive
+
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib oauth2client
+
+pip3 install requests BeautifulSoup4 image urllib3 pandas lxml
